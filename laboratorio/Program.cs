@@ -38,10 +38,15 @@ class Program
         {
             Console.Clear();
 
+            Console.ForegroundColor = ConsoleColor.Cyan;
+
             Console.WriteLine("==========================================");
             Console.WriteLine("       LABORATORIO 7 - RECURSIVIDAD");
             Console.WriteLine("     SISTEMA DE ENTREGAS DIGITALES");
+            Console.WriteLine("       FUNDAMENTOS DE PROGRAMACION");
             Console.WriteLine("==========================================");
+
+            Console.ResetColor();
             Console.WriteLine("1. Mostrar entregas registradas");
             Console.WriteLine("2. Sumatoria recursiva de puntajes");
             Console.WriteLine("3. Buscar codigo de estudiante");
