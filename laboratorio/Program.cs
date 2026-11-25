@@ -138,7 +138,9 @@ class Program
         Console.WriteLine("Total de entregas: " + codigos.Length);
     }
 
-    // 2. SUMATORIA RECURSIVA
+    // 2. // Calcula la suma de los puntajes almacenados.
+          // Caso base: retorna 0 al llegar al final del arreglo.
+          // Caso recursivo: suma el puntaje actual y avanza el indice.
 
     static int SumarRecursivo(int[] datos, int indice)
     {
@@ -153,7 +155,10 @@ class Program
                SumarRecursivo(datos, indice + 1);
     }
 
-    // 3. BUSQUEDA RECURSIVA
+    // 3. // Busca un codigo de estudiante dentro del arreglo.
+          // Retorna -1 si el codigo no existe.
+          // Si encuentra una coincidencia, retorna su posicion.
+          // En cada llamada recursiva incrementa el indice.
 
     static int BuscarRecursivo(string[] datos, string codigo, int indice)
     {
@@ -202,7 +207,9 @@ class Program
         }
     }
 
-    // 4. CONTEO RECURSIVO DE ARCHIVOS
+    // 4. // Cuenta los archivos que contienen una palabra clave.
+          // Caso base: retorna 0 al finalizar el recorrido.
+          // Acumula las coincidencias mediante llamadas recursivas.
 
     static int ContarRecursivo(string[] datos, string palabra, int indice)
     {
@@ -244,7 +251,9 @@ class Program
         Console.WriteLine("Archivos encontrados: " + resultado);
     }
 
-    // 5. FACTORIAL RECURSIVO
+    // 5. // Calcula el factorial de un numero entero.
+          // Caso base: si el numero es 0 o 1, retorna 1.
+          // Caso recursivo: multiplica el numero por Factorial(numero - 1).
 
     static long Factorial(int numero)
     {
@@ -275,7 +284,9 @@ class Program
                           " = " + Factorial(numero));
     }
 
-    // 6. POTENCIA RECURSIVA
+    // 6. // Calcula una potencia mediante recursividad.
+          // Caso base: si el exponente es 0, retorna 1.
+          // Caso recursivo: disminuye el exponente en una unidad.
 
     static long Potencia(int numeroBase, int exponente)
     {
