@@ -1,0 +1,14 @@
+C:\Users\W10\Documents\Laboratorio 7\laboratorio\bin\Debug\net10.0\laboratorio.exe
+C:\Users\W10\Documents\Laboratorio 7\laboratorio\bin\Debug\net10.0\laboratorio.deps.json
+C:\Users\W10\Documents\Laboratorio 7\laboratorio\bin\Debug\net10.0\laboratorio.runtimeconfig.json
+C:\Users\W10\Documents\Laboratorio 7\laboratorio\bin\Debug\net10.0\laboratorio.dll
+C:\Users\W10\Documents\Laboratorio 7\laboratorio\bin\Debug\net10.0\laboratorio.pdb
+C:\Users\W10\Documents\Laboratorio 7\laboratorio\obj\Debug\net10.0\laboratorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\W10\Documents\Laboratorio 7\laboratorio\obj\Debug\net10.0\laboratorio.AssemblyInfoInputs.cache
+C:\Users\W10\Documents\Laboratorio 7\laboratorio\obj\Debug\net10.0\laboratorio.AssemblyInfo.cs
+C:\Users\W10\Documents\Laboratorio 7\laboratorio\obj\Debug\net10.0\laboratorio.csproj.CoreCompileInputs.cache
+C:\Users\W10\Documents\Laboratorio 7\laboratorio\obj\Debug\net10.0\laboratorio.dll
+C:\Users\W10\Documents\Laboratorio 7\laboratorio\obj\Debug\net10.0\refint\laboratorio.dll
+C:\Users\W10\Documents\Laboratorio 7\laboratorio\obj\Debug\net10.0\laboratorio.pdb
+C:\Users\W10\Documents\Laboratorio 7\laboratorio\obj\Debug\net10.0\laboratorio.genruntimeconfig.cache
+C:\Users\W10\Documents\Laboratorio 7\laboratorio\obj\Debug\net10.0\ref\laboratorio.dll
