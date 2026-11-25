@@ -59,9 +59,10 @@ class Program
             Console.WriteLine("==========================================");
             Console.Write("Seleccione una opcion: ");
 
-            if (!int.TryParse(Console.ReadLine(), out opcion))
-            {
-                opcion = -1;
+            if (!int.TryParse(Console.ReadLine(), out opcion)
+              || opcion < 0 || opcion > 8)
+           {
+             opcion = -1;
             }
 
             Console.Clear();
@@ -107,9 +108,11 @@ class Program
                     Console.WriteLine("Programa finalizado.");
                     break;
 
-                default:
-                    Console.WriteLine("Opcion incorrecta.");
-                    break;
+               default:
+                 Console.ForegroundColor = ConsoleColor.Red;
+                 Console.WriteLine("Error: ingrese una opcion entre 0 y 8.");
+                 Console.ResetColor();
+                 break;
             }
 
             if (opcion != 0)
